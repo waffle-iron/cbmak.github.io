@@ -6,4 +6,4 @@ Disallow: /js/
 Disallow: /root/
 Disallow: /video/
 
-sitemap: http://rumen.pro/sitemap.xml
+sitemap: http://cbmak.com/sitemap.xml
