@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6081645-5ce6-4f93-b72e-eee49d7b9550" name="Default" comment="" />
+    <list default="true" id="c6081645-5ce6-4f93-b72e-eee49d7b9550" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +19,8 @@
             <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/index.html">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="255">
-                    <caret line="17" column="85" lean-forward="true" selection-start-line="17" selection-start-column="85" selection-end-line="17" selection-end-column="85" />
+                  <state relative-caret-position="353">
+                    <caret line="854" column="71" lean-forward="false" selection-start-line="854" selection-start-column="71" selection-end-line="854" selection-end-column="71" />
                     <folding />
                   </state>
                 </provider>
@@ -32,10 +34,16 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>cbmak.com</find>
+      <find>htrumen.pro</find>
+      <find>rumen.pro</find>
+      <find>rlcv</find>
     </findStrings>
     <replaceStrings>
       <replace>airdata.github.io</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -203,12 +211,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514065960105</updated>
-      <workItem from="1514065962598" duration="125000" />
+      <workItem from="1514065962598" duration="319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125000" />
+    <option name="totallyTimeSpent" value="319000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="168" y="83" width="2544" height="1409" extended-state="0" />
@@ -252,8 +260,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="85" lean-forward="true" selection-start-line="17" selection-start-column="85" selection-end-line="17" selection-end-column="85" />
+        <state relative-caret-position="353">
+          <caret line="854" column="71" lean-forward="false" selection-start-line="854" selection-start-column="71" selection-end-line="854" selection-end-column="71" />
           <folding />
         </state>
       </provider>
