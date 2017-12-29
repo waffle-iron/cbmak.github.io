@@ -4,7 +4,7 @@ RewriteEngine on
 RewriteCond %{HTTP_HOST} ^104\.24\.100\.80
 RewriteCond %{HTTP_HOST} ^91\.215\.216\.5
 RewriteCond %{THE_REQUEST} ^.*/index.html
-RewriteRule ^(.*)index.html$ http://www.airdata.github.io/$1 [R=301,L]
+RewriteRule ^(.*)index.html$ http://airdata.github.io/$1 [R=301,L]
 RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
 RewriteRule .* ? [F,L]
 
