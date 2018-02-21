@@ -11,7 +11,7 @@ Clearfix
 	/*==========================================================================
 	##General
 	==========================================================================*/
--------------------------------- */
+
 .cd-intro {
   position: relative;
   height: 100vh;
@@ -141,8 +141,8 @@ Clearfix
 
 	.about-wrap																		{ padding:100px 0 !important; }
 
-	.header-slider-content 															{ position:relavie; }
-	#home 																			{ position:Relavite; }
+	.header-slider-content 															{ position:relative; }
+	#home 																			{ position:relative; }
 
 	.money-label 																	{ height:35px;display:block;width:80px;color:#64948f;font-size:25px;font-weight:700;font-family: 'Open Sans', sans-serif;line-height:35px;text-align:Center;margin:10px 0 25px -4px; }
 
