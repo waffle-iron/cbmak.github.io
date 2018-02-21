@@ -1,14 +1,12 @@
-<IfModule mod_expires.c>
-Options +FollowSymLinks
 
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^rumen\.pro$ [NC]
-RewriteRule ^(.*)$ http://www.rumen.pro/$1 [R=301,L]
-RewriteCond %{THE_REQUEST} ^.*/index.html
-RewriteRule ^(.*)index.html$ http://www.rumen.pro/$1 [R=301,L] 
+RewriteCond %{HTTP_HOST} ^rumen.pro [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.rumen.pro [NC]
+RewriteCond %{HTTP_HOST} ^18\.196\.248\.151
+RewriteRule ^(.*)$ http://rumen.pro/$1 [L,R=301,NC]
 
-RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
-RewriteRule .* ? [F,L]
+
+<IfModule mod_expires.c>
 
 ExpiresActive On
 ExpiresDefault "access plus 1 week"
