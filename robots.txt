@@ -1,8 +1,4 @@
 User-agent: *
-Disallow: /images/
-Disallow: /css/
-Disallow: /files/*.pdf$
-Disallow: /js/
 Disallow: /root/
 Disallow: /video/
 
