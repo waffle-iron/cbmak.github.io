@@ -1,9 +1,0 @@
-User-agent: *
-Disallow: /images/
-Disallow: /css/
-Disallow: /files/*.pdf$
-Disallow: /js/
-Disallow: /root/
-Disallow: /video/
-
-sitemap: http://rumen.pro/sitemap.xml
