@@ -18,7 +18,7 @@ Options All -Indexes
 </IfModule>
 
 # Disable the server signature
-ServerSignature Off
+ServerSignature On
 ServerTokens Prod
 
 # Prevent access to .htaccess
