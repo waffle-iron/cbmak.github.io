@@ -329,7 +329,7 @@ header h1 {
     float: left;
   }
   .cd-timeline-content .cd-date {
-    color:  white;
+    color:  rgb(red, green, blue);
     font-family: "Open Sans";
     font-size: 18px;
     font-weight: 700;
