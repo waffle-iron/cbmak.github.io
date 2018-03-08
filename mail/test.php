@@ -7,4 +7,4 @@ echo("<p>Email successfully sent!</p>");
 } else {
 echo("<p>Email delivery failed…</p>");
 }
-?>
+

@@ -13,25 +13,25 @@
             
          	// Form field validation
             if(name.length == 0){
-                var error = true;
+
                 $('#name_error').fadeIn(500);
             }else{
                 $('#name_error').fadeOut(500);
             }
             if(email.length == 0 || email.indexOf('@') == '-1'){
-                var error = true;
+
                 $('#email_error').fadeIn(500);
             }else{
                 $('#email_error').fadeOut(500);
             }
             if(subject.length == 0){
-                var error = true;
+
                 $('#subject_error').fadeIn(500);
             }else{
                 $('#subject_error').fadeOut(500);
             }
             if(message.length == 0){
-                var error = true;
+
                 $('#message_error').fadeIn(500);
             }else{
                 $('#message_error').fadeOut(500);
