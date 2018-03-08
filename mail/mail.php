@@ -1,43 +1,22 @@
 <?php
-// Import PHPMailer classes into the global namespace
-// These must be at the top of your script, not inside a function
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
+$subject = $_REQUEST['subject'] . ' Ajax HTML Contact Form : Demo'; // Subject of your email
+$to = $_REQUEST['email'];  //Recipient's E-mail
 
-//Load composer's autoloader
-require 'vendor/autoload.php';
+$headers  = 'MIME-Version: 1.0' . "\r\n";
+$headers .= "From: " . $_REQUEST['email'] . "\r\n"; // Sender's E-mail
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
-$mail = new PHPMailer(true);                              // Passing `true` enables exceptions
-try {
-    //Server settings
-    $mail->SMTPDebug = 2;                                 // Enable verbose debug output
-    $mail->isSMTP();                                      // Set mailer to use SMTP
-    $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
-    $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'rumenlishkoff@gmail.com';                 // SMTP username
-    $mail->Password = 'back2fack';                           // SMTP password
-    $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-    $mail->Port = 587;                                    // TCP port to connect to
+$message .= 'Name: ' . $_REQUEST['name'] . "<br>";
+$message .= $_REQUEST['message'];
 
-    //Recipients
-    $mail->setFrom('rumenlishkoff@gmail.com', 'Mailer');
-    $mail->addAddress('rumenlishkoff@gmail.com');               // Name is optional
-    $mail->addReplyTo('rumenlishkoff@gmail.com', 'Information');
-    $mail->addCC('rumenlishkoff@gmail.com');
-    $mail->addBCC('rumenlishkoff@gmail.com');
-
-    //Attachments
-    $mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
-    $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
-
-    //Content
-    $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = 'Here is the subject';
-    $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
-    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-
-    $mail->send();
-    echo 'Message has been sent';
-} catch (Exception $e) {
-    echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
+if (@mail($to, $subject, $message, $headers))
+{
+	// Transfer the value 'sent' to ajax function for showing success message.
+	echo 'sent';
 }
+else
+{
+	// Transfer the value 'failed' to ajax function for showing error message.
+	echo 'failed';
+}
+?>
