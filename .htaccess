@@ -1,11 +1,8 @@
 <IfModule mod_rewrite.c>
 RewriteEngine on
 RewriteBase /
-RewriteCond %{HTTP_HOST} ^rumen.pro [NC,OR]
-RewriteCond %{HTTP_HOST} ^www.rumen.pro [NC]
-RewriteCond %{HTTP_HOST} ^18\.196\.248\.151
-RewriteRule ^(.*)$ http://rumen.pro/$1 [L,R=301,NC]
-RewriteRule ^index\.html$ - [L]
+RewriteCond %{HTTP_HOST} ^rumen\.pro [NC]
+RewriteRule ^(.*)$ https://www.rumen.pro/$1 [R=301,L]
 </IfModule>
 
 
