@@ -25,10 +25,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <!-- Google CAPTCHA  -->
 <script src='https://www.google.com/recaptcha/api.js'></script>
+<script type="text/javascript">
+	var onloadCallback = function() {
+	  grecaptcha.render('html_element', {
+		'sitekey' : '6LeSC04UAAAAAPdnE-76QwV8r80rXcyubEl1WxlH'
+	  });
+	};
+  </script>
+
 <!--END Google CAPTCHA  -->
 
 	<title>Rumen Lishkov - System Administration and DevOps Engineering</title>
-    <meta name="keywords" content="rumen lishkov, System administrator and devops engeneer cv, ci/cd jenkins,docker,racher,monitoring with zabbix and kibana">
+    <meta name="keywords" content="Rumen Lishkov, System administrator and devops engeneer cv, ci/cd jenkins,docker,racher,monitoring with zabbix and kibana">
 	<meta name="description" content="Rumen Lishkov - System Administration and DevOps Engineering">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
@@ -872,7 +880,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								</div>
 								<div class="ewf-span9">
 									<form name="contactform" id="contact_form" method="post" action="email.php">
-									<div class="g-recaptcha" data-sitekey="6LeSC04UAAAAAPdnE-76QwV8r80rXcyubEl1WxlH"></div>
 									<div class="ewf-row">
 										<div class="ewf-span6">
 	                                		<div id="name_error" class="error">Please enter your name.</div>
@@ -900,7 +907,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	                                <p id="submit">
 	                                    <input type="submit" id="send_message" value="Send Me a Message" class="button red">
 									</p>
-		                            </form>
+									</form>
+									<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+									async defer>
+								</script>							
 								</div>
 							</div>	
 						</div>
