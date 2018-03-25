@@ -162,8 +162,8 @@ header h1 {
 .cd-timeline-img.purple-bg {
   background: rgba(105, 47, 105, 0.9);
 }
-.cd-timeline-img.transperent-bg {
-  background: rgba(223, 216, 223, 0.322);
+.cd-timeline-img.pink-bg {
+  background: rgba(255,105,180);
 }
 
 .cd-timeline-content .blue { color: #4ca5d0;}
@@ -178,6 +178,7 @@ header h1 {
 .cd-timeline-content .blue-sky { color: #4DD2FF;}
 .cd-timeline-content .blue-dark { color: #6600FF;}
 .cd-timeline-content .yellow2 { color: #f0ca45;}
+.cd-timeline-content .pink { color: #FF69B4;}
 
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
