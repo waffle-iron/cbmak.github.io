@@ -162,6 +162,9 @@ header h1 {
 .cd-timeline-img.purple-bg {
   background: rgba(105, 47, 105, 0.9);
 }
+.cd-timeline-img.transperent-bg {
+  background: rgba(223, 216, 223, 0.322);
+}
 
 .cd-timeline-content .blue { color: #4ca5d0;}
 .cd-timeline-content .green { color: #6ca338;}
