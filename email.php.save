@@ -4,7 +4,7 @@ $to = 'rumenlishkoff@gmail.com';  //Recipient's E-mail
 $headers  = 'MIME-Version: 1.0';
 $headers .= "From: " . $_REQUEST['email']; // Sender's E-mail
 $headers .= 'Content-type: text/html; charset=iso-8859-1';
-$message .= 'Name: ' . $_REQUEST['name'];
+$message .= 'Name: ' . $_REQUEST['name'] . "<br>";
 $message .= $_REQUEST['message'];
 if (@mail($to, $subject, $message, $headers))
 {
