@@ -1,4 +1,9 @@
 User-agent: *
 Disallow: /files/
 
+User-agent: Mediapartners-Google*
+Disallow: /*?*
+Allow:/files/*.pdf
+Allow: /*.pdf
+
 Sitemap: http://rumen.pro/sitemap.xml
