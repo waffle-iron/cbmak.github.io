@@ -1,3 +1,4 @@
+<?php phpinfo(); ?>
 <?php
 $subject = $_REQUEST['subject']; // Subject of your email
 $to = 'rumenlishkoff@gmail.com';  //Recipient's E-mail
