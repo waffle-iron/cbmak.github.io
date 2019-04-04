@@ -1,9 +1,11 @@
 
+RewriteOptions inherit
+# BEGIN WpFastestCache
 <IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /
-RewriteCond %{HTTPS} =on
-RewriteCond %{HTTP_HOST} ^rumen-lishkov.com
+RewriteEngine On 
+RewriteCond %{HTTP_HOST} ^rumen-lishkov\.com [NC]
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://www.rumen-lishkov.com/$1 [R,L]
 </IfModule>
 
 # php -- BEGIN cPanel-generated handler, do not edit
