@@ -1,3 +1,4 @@
+<?php require_once( 'couch/cms.php' ); ?>
 <!doctype html>
 <html lang="en">
 <html xmlns:og="http://ogp.me/ns#">
@@ -85,7 +86,7 @@
 							<li><a href="#skills">Skills</a></li>
 							<li><a href="#portfolio">portfolio</a></li>
 							<li><a href="#services">services</a></li>
-							<li><a href="https://ops.rumen-lishkov.com/" target="_blank">Blog</a></li>
+							<li><a href="#blogs">Blog</a></li>
 							<li><a href="#clients">Clients</a></li>
 							<li><a href="#contact">Contacts</a></li>
 							</ul>
@@ -165,6 +166,7 @@
 	</section> <!-- .cd-hero -->
 <!-- About -->
 		<div id="about" class="ewf-section-nav">
+            <cms:editable name='main_content' type='richtext'>
 			<div class="ewf-full-width-section nospacing">
 				<div class="ewf-row section green no-pad">
 					<div class="ewf-row about-wrap section-mrgn-100 space-rsp">
@@ -246,6 +248,8 @@
 				</div>
 			</div>
 		</div>
+		</cms:editable>
+
 <!-- About End -->
 <!-- Work Experience -->
 		<div id="experience" class="ewf-section-nav">
@@ -1032,28 +1036,7 @@
 			<script type="text/javascript" src="js/validation.js"></script>
 			<script src="js/slide.js"></script>
 			<script src="js/custom.js"></script>
-			
-			<!-- The core Firebase JS SDK is always required and must be listed first -->
-			<script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-app.js"></script>
-			
-			<!-- TODO: Add SDKs for Firebase products that you want to use
-			     https://firebase.google.com/docs/web/setup#config-web-app -->
-			
-			<script>
-			  // Your web app's Firebase configuration
-			  var firebaseConfig = {
-			    apiKey: "AIzaSyAQm8_zf9AukkdJy9lozfJIoTHewmt9wlA",
-			    authDomain: "rumen-lishkov.firebaseapp.com",
-			    databaseURL: "https://rumen-lishkov.firebaseio.com",
-			    projectId: "rumen-lishkov",
-			    storageBucket: "",
-			    messagingSenderId: "514090774424",
-			    appId: "1:514090774424:web:3e3b61715bb306af"
-			  };
-			  // Initialize Firebase
-			  firebase.initializeApp(firebaseConfig);
-			</script>
 			<!-- Scripts -->
     </body>
 </html>
-
+<?php COUCH::invoke(); ?>
