@@ -14,9 +14,7 @@ if(isset($_POST['submit']) && !empty($_POST['submit'])):
 		$headers .= 'Content-type: text/html; charset=iso-8859-1';
 		$message .= 'Name: ' . $_REQUEST['name'];
 		$message .= $_REQUEST['message'];
-	
-			// Transfer the value 'sent' to ajax function for showing success message.
-			echo 'sent';
-		
-
+		{
+		echo("Email sending failed...");
+		}
 ?>
