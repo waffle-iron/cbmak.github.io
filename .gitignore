@@ -4,3 +4,5 @@
 .ftpquota
 _notes
 *.iml
+*package-lock.json
+*node_modules
