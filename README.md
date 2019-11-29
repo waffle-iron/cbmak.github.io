@@ -6,7 +6,8 @@ Resume of R.L.
 
 A nodejs app 
 
-* Last build on Circle --> 
+* Circle Status --> 
  [![CircleCI](https://img.shields.io/circleci/project/github/airdata/insite.svg)](https://circleci.com/gh/airdata/airdata.github.io) 
 
+* Heroku Status --> 
  [![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge&style=flat)](https://rumen.herokuapp.com/projects.html)
