@@ -1,4 +1,4 @@
-
+Options -Indexes
 RewriteOptions inherit
 # BEGIN WpFastestCache
 <IfModule mod_rewrite.c>
