@@ -56,12 +56,12 @@ Clearfix
 }
 @media only screen and (min-width: 768px) {
   .cd-intro-content h1 {
-    font-size: 5.2rem;
-    font-weight: 300;
+	font-size: 5.2rem;
+	font-weight: 300;
   }
   .cd-intro-content p {
-    font-size: 1.6rem;
-    margin: 1.5em 0 1.9em;
+	font-size: 1.6rem;
+	margin: 1.5em 0 1.9em;
   }
 }
 
@@ -85,12 +85,12 @@ Clearfix
 }
 @media only screen and (min-width: 480px) {
   .cd-btn {
-    padding: 1.2em 1.6em;
+	padding: 1.2em 1.6em;
   }
 }
 @media only screen and (min-width: 768px) {
   .cd-btn {
-    padding: 1.4em 1.8em;
+	padding: 1.4em 1.8em;
   }
 }
 
@@ -162,7 +162,7 @@ Clearfix
 	==========================================================================*/
 
 	#main-nav 																		{ height:100px;position:relative; }
-	#logo 																			{ height:100px;width:175px;background:url('../images/logo.png') no-repeat center center;display:block; }
+	#logo 																			{ height:100px;width:185px;background:url('../images/logo.png') no-repeat center center;display:block; }
 	.wrapper-nav 																	{ height:100px; }
 	.nav-height 																	{ height:100px;position:absolute;z-index:99999; width: 100%; }
 
@@ -462,7 +462,7 @@ Clearfix
 	.pricing-section h2 															{ color:#fff;font-family: 'Open Sans', sans-serif;font-size:18px;text-transform:uppercase;letter-spacing:3px; font-weight: 700; }
 
 	.heading-section.pricing-area 													{ margin-bottom:60px;font-family: 'Open Sans', sans-serif;font-weight:700; }
-/* -------------------------------- 
+/* --------------------------------
 
 Mask 2
 
@@ -530,99 +530,99 @@ Mask 2
 
 @-webkit-keyframes cd-mask-wrapper {
   0% {
-    -webkit-transform: translateX(50%);
+	-webkit-transform: translateX(50%);
   }
   100% {
-    -webkit-transform: translateX(0);
+	-webkit-transform: translateX(0);
   }
 }
 @-moz-keyframes cd-mask-wrapper {
   0% {
-    -moz-transform: translateX(50%);
+	-moz-transform: translateX(50%);
   }
   100% {
-    -moz-transform: translateX(0);
+	-moz-transform: translateX(0);
   }
 }
 @keyframes cd-mask-wrapper {
   0% {
-    -webkit-transform: translateX(50%);
-    -moz-transform: translateX(50%);
-    -ms-transform: translateX(50%);
-    -o-transform: translateX(50%);
-    transform: translateX(50%);
+	-webkit-transform: translateX(50%);
+	-moz-transform: translateX(50%);
+	-ms-transform: translateX(50%);
+	-o-transform: translateX(50%);
+	transform: translateX(50%);
   }
   100% {
-    -webkit-transform: translateX(0);
-    -moz-transform: translateX(0);
-    -ms-transform: translateX(0);
-    -o-transform: translateX(0);
-    transform: translateX(0);
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+	-ms-transform: translateX(0);
+	-o-transform: translateX(0);
+	transform: translateX(0);
   }
 }
 @-webkit-keyframes cd-mask-content {
   0% {
-    -webkit-transform: translateX(-100%);
+	-webkit-transform: translateX(-100%);
   }
   100% {
-    -webkit-transform: translateX(0);
+	-webkit-transform: translateX(0);
   }
 }
 @-moz-keyframes cd-mask-content {
   0% {
-    -moz-transform: translateX(-100%);
+	-moz-transform: translateX(-100%);
   }
   100% {
-    -moz-transform: translateX(0);
+	-moz-transform: translateX(0);
   }
 }
 @keyframes cd-mask-content {
   0% {
-    -webkit-transform: translateX(-100%);
-    -moz-transform: translateX(-100%);
-    -ms-transform: translateX(-100%);
-    -o-transform: translateX(-100%);
-    transform: translateX(-100%);
+	-webkit-transform: translateX(-100%);
+	-moz-transform: translateX(-100%);
+	-ms-transform: translateX(-100%);
+	-o-transform: translateX(-100%);
+	transform: translateX(-100%);
   }
   100% {
-    -webkit-transform: translateX(0);
-    -moz-transform: translateX(0);
-    -ms-transform: translateX(0);
-    -o-transform: translateX(0);
-    transform: translateX(0);
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+	-ms-transform: translateX(0);
+	-o-transform: translateX(0);
+	transform: translateX(0);
   }
 }
 @-webkit-keyframes cd-pulse {
   0%, 30.8% {
-    opacity: 0;
+	opacity: 0;
   }
   15.4%, 46.2%, 61.5%, 70% {
-    opacity: 1;
+	opacity: 1;
   }
   100% {
-    opacity: 0;
+	opacity: 0;
   }
 }
 @-moz-keyframes cd-pulse {
   0%, 30.8% {
-    opacity: 0;
+	opacity: 0;
   }
   15.4%, 46.2%, 61.5%, 70% {
-    opacity: 1;
+	opacity: 1;
   }
   100% {
-    opacity: 0;
+	opacity: 0;
   }
 }
 @keyframes cd-pulse {
   0%, 30.8% {
-    opacity: 0;
+	opacity: 0;
   }
   15.4%, 46.2%, 61.5%, 70% {
-    opacity: 1;
+	opacity: 1;
   }
   100% {
-    opacity: 0;
+	opacity: 0;
   }
 }
 
