@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('check') {
       steps {
-        setGitHubPullRequestStatus()
+        setGitHubPullRequestStatus(context: env.JOB_NAME, message: "Build finished successfully", state: 'SUCCESS')
       }
     }
   }
