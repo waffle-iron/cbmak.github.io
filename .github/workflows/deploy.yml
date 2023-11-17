@@ -14,5 +14,5 @@ jobs:
         with:
           node-version: '20.x'
       - run: npm install
-      - run: npm start
+      - run: npm start &
       - run: npm test
